@@ -11,30 +11,30 @@
 
 *change the path to access the login page and log in to the account of the user named Alice with username being alice and password is alice*
 
-<img width="726" alt="lab3_1.1-3.jpg" src="[https://github.com/NguyenThanhHieu-21110025/InformationSecurity-Lab/blob/main/images/lab3_1.1-1.jpg](https://github.com/NguyenThanhHieu-21110025/InformationSecurity-Lab/blob/main/images/lab3_1.1-3.jpg)" >
+<img width="726" alt="lab3_1.1-3.jpg" src="https://github.com/NguyenThanhHieu-21110025/InformationSecurity-Lab/blob/main/images/lab3_1.1-3.jpg" >
 
-<img src="https://raw.githubusercontent.com/NguyenThanhHieu-21110025/InformationSecurity-Lab/main/images/lab3_1.1-4.jpg
-" alt="lab3_1.1-1.jpg" width="500"/>
+
+<img width="726" alt="lab3_1.1-4.jpg" src="https://github.com/NguyenThanhHieu-21110025/InformationSecurity-Lab/blob/main/images/lab3_1.1-4.jpg" >
+
 
 *After logged,change the path to '/balance' to check the account balance.*
 
-<img src="https://raw.githubusercontent.com/NguyenThanhHieu-21110025/InformationSecurity-Lab/main/images/lab3_1.1-5.jpg
-" alt="lab3_1.1-1.jpg" width="500"/>
+<img width="726" alt="lab3_1.1-5.jpg" src="https://github.com/NguyenThanhHieu-21110025/InformationSecurity-Lab/blob/main/images/lab3_1.1-5.jpg" >
+
 
 ## 1.2: Doing the transaction
 
 *transfer money to Bob's account, we will go to the transaction page via the link '/transfer'*
 
-<img src="https://raw.githubusercontent.com/NguyenThanhHieu-21110025/InformationSecurity-Lab/main/images/lab3_1.1-6.jpg
-" alt="lab3_1.1-1.jpg" width="500"/>
+<img width="726" alt="lab3_1.1-6.jpg" src="https://github.com/NguyenThanhHieu-21110025/InformationSecurity-Lab/blob/main/images/lab3_1.1-6.jpg" >
 
-<img src="https://raw.githubusercontent.com/NguyenThanhHieu-21110025/InformationSecurity-Lab/main/images/lab3_1.1-7.jpg
-" alt="lab3_1.1-1.jpg" width="500"/>
+
+<img width="726" alt="lab3_1.1-7.jpg" src="https://github.com/NguyenThanhHieu-21110025/InformationSecurity-Lab/blob/main/images/lab3_1.1-7.jpg" >
+
 
 *return to check the balance again, then the balance will be deducted by the exact amount we just transferred:*
 
-<img src="https://raw.githubusercontent.com/NguyenThanhHieu-21110025/InformationSecurity-Lab/main/images/lab3_1.1-8.jpg
-" alt="lab3_1.1-1.jpg" width="500"/>
+<img width="726" alt="lab3_1.1-8.jpg" src="https://github.com/NguyenThanhHieu-21110025/InformationSecurity-Lab/blob/main/images/lab3_1.1-8.jpg" >
 
 ## 1.3: Tranfer money illegitimately
 
