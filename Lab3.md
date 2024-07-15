@@ -6,14 +6,12 @@
 ## 1.1: Login, Check balance
 *First we will launch the target.py website. We can see the website's interface:*
 
-<img width="726" alt="lab3_1.1-2.jpg" src="https://github.com/NguyenThanhHieu-21110025/InformationSecurity-Lab/blob/main/images/lab3_1.1-1.jpg" >
-<img src="https://raw.githubusercontent.com/NguyenThanhHieu-21110025/InformationSecurity-Lab/main/images/lab3_1.1-2.jpg
-" alt="lab3_1.1-1.jpg" width="500"/>
+<img width="726" alt="lab3_1.1-1.jpg" src="https://github.com/NguyenThanhHieu-21110025/InformationSecurity-Lab/blob/main/images/lab3_1.1-1.jpg" >
+<img width="726" alt="lab3_1.1-2.jpg" src="https://github.com/NguyenThanhHieu-21110025/InformationSecurity-Lab/blob/main/images/lab3_1.1-2.jpg" >
 
 *change the path to access the login page and log in to the account of the user named Alice with username being alice and password is alice*
 
-<img src="https://raw.githubusercontent.com/NguyenThanhHieu-21110025/InformationSecurity-Lab/main/images/lab3_1.1-3.jpg
-" alt="lab3_1.1-1.jpg" width="500"/>
+<img width="726" alt="lab3_1.1-3.jpg" src="[https://github.com/NguyenThanhHieu-21110025/InformationSecurity-Lab/blob/main/images/lab3_1.1-1.jpg](https://github.com/NguyenThanhHieu-21110025/InformationSecurity-Lab/blob/main/images/lab3_1.1-3.jpg)" >
 
 <img src="https://raw.githubusercontent.com/NguyenThanhHieu-21110025/InformationSecurity-Lab/main/images/lab3_1.1-4.jpg
 " alt="lab3_1.1-1.jpg" width="500"/>
