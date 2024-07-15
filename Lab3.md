@@ -84,7 +84,7 @@ _Setting samesite cookie is strict_
 
 *Here, we've added samesite='Strict' when setting the cookie after the user logs in to ensure that the cookie is only sent in the first-party context.*
 
-<img width="726" alt="code2" src="https://github.com/NguyenThanhHieu-21110025/InformationSecurity-Lab/blob/main/images/code2,jpg" >
+<img width="726" alt="code2" src="https://github.com/NguyenThanhHieu-21110025/InformationSecurity-Lab/blob/main/images/code2.jpg" >
 
 **Set SameSite to Strict:** *"resp.set_cookie('user_session', '', expires=0, samesite='Strict') "*
 
