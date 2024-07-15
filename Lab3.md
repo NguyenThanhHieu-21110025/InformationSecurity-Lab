@@ -6,7 +6,7 @@
 ## 1.1: Login, Check balance
 *First we will launch the target.py website. We can see the website's interface:*
 
-<img src="https://raw.githubusercontent.com/NguyenThanhHieu-21110025/InformationSecurity-Lab/main/images/lab3_1.1-1.jpg
+<img src="[https://raw.githubusercontent.com/NguyenThanhHieu-21110025/InformationSecurity-Lab/main/images/lab3_1.1-1.jpg](https://github.com/NguyenThanhHieu-21110025/InformationSecurity-Lab/blob/main/images/lab3_1.1-1.jpg)
 " alt="lab3_1.1-1.jpg" width="500"/>
 <img src="https://raw.githubusercontent.com/NguyenThanhHieu-21110025/InformationSecurity-Lab/main/images/lab3_1.1-2.jpg
 " alt="lab3_1.1-1.jpg" width="500"/>
