@@ -40,20 +40,16 @@
 
 *To perform a CSRF attack when user Alice accidentally downloads a file hidden_form.html. We will launch the above website. As soon as the website is launched, user Alice will immediately lose 1000 and the attacker account will gain 1000:*
 
-<img src="https://raw.githubusercontent.com/NguyenThanhHieu-21110025/InformationSecurity-Lab/main/images/lab3_1.3-1.jpg
-" alt="lab3_1.1-1.jpg" width="500"/>
+<img width="726" alt="lab3_1.3-1.jpg" src="https://github.com/NguyenThanhHieu-21110025/InformationSecurity-Lab/blob/main/images/lab3_1.3-1.jpg" >
 
-<img src="https://raw.githubusercontent.com/NguyenThanhHieu-21110025/InformationSecurity-Lab/main/images/lab3_1.3-2.jpg
-" alt="lab3_1.1-1.jpg" width="500"/>
+<img width="726" alt="lab3_1.3-2.jpg" src="https://github.com/NguyenThanhHieu-21110025/InformationSecurity-Lab/blob/main/images/lab3_1.3-2.jpg" >
 
 
 *Login into attacker account and check:*
 
-<img src="https://raw.githubusercontent.com/NguyenThanhHieu-21110025/InformationSecurity-Lab/main/images/lab3_1.3-3.jpg
-" alt="lab3_1.1-1.jpg" width="500"/>
+<img width="726" alt="lab3_1.3-3.jpg" src="https://github.com/NguyenThanhHieu-21110025/InformationSecurity-Lab/blob/main/images/lab3_1.3-3.jpg" >
 
-<img src="https://raw.githubusercontent.com/NguyenThanhHieu-21110025/InformationSecurity-Lab/main/images/lab3_1.3-4.jpg
-" alt="lab3_1.1-1.jpg" width="500"/>
+<img width="726" alt="lab3_1.3-4.jpg" src="https://github.com/NguyenThanhHieu-21110025/InformationSecurity-Lab/blob/main/images/lab3_1.3-4.jpg" >
 
 *When launching the malicious html file, the input form to perform transactions of the official website was called to the fake website and at the same time it made transactions to an unwanted account, the account by Attacker. At that time, the attack through the CSRF vulnerability was performed.*
 
@@ -63,21 +59,17 @@
 
 *install the Flask-WTF*
 
-<img src="https://raw.githubusercontent.com/NguyenThanhHieu-21110025/InformationSecurity-Lab/main/images/lab3_2-1.jpg
-" alt="lab3_1.1-1.jpg" width="500"/>
+<img width="726" alt="lab3_2-1.jpg" src="https://github.com/NguyenThanhHieu-21110025/InformationSecurity-Lab/blob/main/images/lab3_2-1.jpg" >
 
 *Configure CSRF token in website in file target.py*
 
-<img src="https://raw.githubusercontent.com/NguyenThanhHieu-21110025/InformationSecurity-Lab/main/images/lab3_2-2.jpg
-" alt="lab3_1.1-1.jpg" width="500"/>
+<img width="726" alt="lab3_2-2.jpg" src="https://github.com/NguyenThanhHieu-21110025/InformationSecurity-Lab/blob/main/images/lab3_2-2.jpg" >
 
 *After the configuration is complete, run the website again and open the malicious website used to attack the above vulnerability. You will see that the attack has failed and has been blocked:*
 
-<img src="https://raw.githubusercontent.com/NguyenThanhHieu-21110025/InformationSecurity-Lab/main/images/lab3_2-3.jpg
-" alt="lab3_1.1-1.jpg" width="500"/>
+<img width="726" alt="lab3_2-3.jpg" src="https://github.com/NguyenThanhHieu-21110025/InformationSecurity-Lab/blob/main/images/lab3_2-3.jpg" >
 
-<img src="https://raw.githubusercontent.com/NguyenThanhHieu-21110025/InformationSecurity-Lab/main/images/lab3_2-4.jpg
-" alt="lab3_1.1-1.jpg" width="500"/>
+<img width="726" alt="lab3_2-4.jpg" src="https://github.com/NguyenThanhHieu-21110025/InformationSecurity-Lab/blob/main/images/lab3_2-4.jpg" >
 
 ## 2.2: Solution 2:
 **SameSite** *is an attribute in HTTP cookies used to specify how the cookie should be sent with cross-origin requests.*
@@ -86,15 +78,13 @@
 
 _Setting samesite cookie is strict_
 
-<img src="https://raw.githubusercontent.com/NguyenThanhHieu-21110025/InformationSecurity-Lab/main/images/code1.jpg
-" alt="lab3_1.1-1.jpg" width="500"/>
+<img width="726" alt="code1" src="https://github.com/NguyenThanhHieu-21110025/InformationSecurity-Lab/blob/main/images/code1.jpg" >
 
 **Set SameSite to Strict:** *"resp.set_cookie('user_session', json.dumps({'username': username}), samesite='Strict') "*
 
 *Here, we've added samesite='Strict' when setting the cookie after the user logs in to ensure that the cookie is only sent in the first-party context.*
 
-<img src="https://raw.githubusercontent.com/NguyenThanhHieu-21110025/InformationSecurity-Lab/main/images/code2.jpg
-" alt="lab3_1.1-1.jpg" width="500"/>
+<img width="726" alt="code2" src="https://github.com/NguyenThanhHieu-21110025/InformationSecurity-Lab/blob/main/images/code2,jpg" >
 
 **Set SameSite to Strict:** *"resp.set_cookie('user_session', '', expires=0, samesite='Strict') "*
 
